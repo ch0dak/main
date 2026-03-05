@@ -1,4 +1,4 @@
-# Razer Leviathan Volume Sync
+# Razer Leviathan Volume Sync on CachyOS
 
 A solution to sync PipeWire/PulseAudio volume controls with the Razer Leviathan V2 X hardware master volume.
 
