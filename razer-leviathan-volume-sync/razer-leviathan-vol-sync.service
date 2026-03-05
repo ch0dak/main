@@ -1,0 +1,11 @@
+[Unit]
+Description=Razer Leviathan V2 X volume slider sync
+After=pipewire.service wireplumber.service
+
+[Service]
+ExecStart=%h/.local/bin/razer-leviathan-vol-sync.sh
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target
